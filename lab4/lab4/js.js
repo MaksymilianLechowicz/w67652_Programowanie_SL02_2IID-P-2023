@@ -66,10 +66,10 @@ function parallelogram(bokjed,bokdwa){
         }
     }
 }
-function click(){
+function clck(){
 let An = document.getElementById("a1").value;
 let be = document.getElementById("b1").value;
 
 const kwadr = new parallelogram(An,be)
-console.log(test)
+kwadr.test()
 }
