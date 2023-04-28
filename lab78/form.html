@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Moja strona</title>
+
+
+</head>
+<body>
+    <form id="form">
+        <label for="name">Imie:</label>
+        <input type="text" id="name" name="name"><br>
+        <span class="error"></span>
+
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname"><br>
+        <span class="error"></span>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <span class="error"></span>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br>
+        <span class="error"></span>
+
+        <label for="sex">Płeć</label>
+        <div>
+            <input type="radio" id="m" name="sex" value="m">
+            <label for="m">M</label>
+            <input type="radio" id="k" name="sex" value="k">
+            <label for="k">K</label>
+        </div>
+        <label for="tel">Telefon</label>
+        <input type="text" id="tel" name="tel"><br>
+        <span class="error"></span>
+
+        <label for="Dat">Data urodzenia</label>
+        <input type="date" id="dat" name="dat"><br>
+        <span class="error"></span>
+        
+        <label for="country">Kraj</label>
+        <select name="country"><br>
+            <option value="Polska">Polska</option>
+            <option value="Litwa">Litwa</option>
+            <option value="Ukraina">Ukraina</option>
+            <option value="Niemcy">Niemcy</option>
+            <option value="Słowacja">Słowacja</option>
+            <option value="Czechy">Czechy</option>
+        </select><br>
+        <button type="submit">Zapisz</button>
+
+       </form>
+    
+    <script src="formjs.js"></script>
+
+</body>
+
+</html>
